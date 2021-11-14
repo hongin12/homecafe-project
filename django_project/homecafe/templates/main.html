@@ -1,0 +1,41 @@
+1. 메인 페이지 로고 넣어야 함
+<br><br>
+
+2. 우측 상단 : 로그인, 회원가입, 장바구니, mypage
+<br>
+
+login.html 띄우는 views.py 함수 : login, url name = "login"
+
+signup.html 띄우는 views.py 함수 : signup, url name = "signup"
+
+
+basket.html 띄우는 views.py 함수 : basket, url name = "basket"
+
+
+mypage.html 띄우는 views.py 함수 : mypage, url name = "mypage"
+<a href="{% url 'mypage_main' %}">마이페이지</a>
+
+
+3. 좌측 중앙: 커뮤니티, 쇼핑, 커피
+community_main.html 띄우는 views.py 함수 : community_main, url name = "community_main"
+<a href="{% url 'community_main' %}">커뮤니티</a>
+
+
+<a href="">recipes</a> 이건 community_main.html에서 개별 눌러서 이동하는 것 같아서 main에서 갈 필요가 없어보임
+<a href="">상세 메뉴들</a> 이건 어디로 이동하는 건지 잘 모르겠음
+
+
+-이 부분들 일단 만들지 않기로 했음
+<a href="">쇼핑</a>
+<a href="">홈카페 재료</a>
+<a href="">홈카페 stuff</a>
+<a href="">장바구니</a>
+
+
+<a href="">커피</a>
+<a href="">원두 소개</a>
+<a href="">원두 추천</a>
+<a href="">원두 판매점, 카페 정보</a>
+
+
+4. 좌측 하단 : 로그인, 회원가입
